@@ -1,0 +1,363 @@
+body,
+html {
+  color: white;
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+.customnavbar {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #00000080;
+  position: fixed !important;
+  z-index: 1;
+}
+
+.customnavbar .nav-link {
+  margin: 0px 1vw 0px 1vw;
+}
+
+.customnavbar a {
+  color: white !important;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+.mainscreen {
+  background-image: url(assets/main-bg.jpg);
+}
+
+.mainscreen .container h1 {
+  margin-top: 25vh;
+  font-size: 54px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.mainscreen .container h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.mainscreen .container a {
+  margin-top: 4vh;
+  padding: 10px 50px 10px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.mainscreen .nextpage {
+  position: absolute;
+  bottom: 1vh;
+  padding: 0px;
+}
+
+.about-gallery {
+  background-image: url(assets/the-games-bg.jpg);
+}
+
+.about-gallery .container {
+  text-align: left;
+}
+
+.about-gallery h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.about-gallery h1 {
+  font-size: 54px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.about-gallery .carousel .carousel-inner img {
+  margin: auto;
+}
+
+.about-gallery .carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  margin: 0px 15px -15px;
+  background-color: transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0px 0px 0px 1px white;
+          box-shadow: inset 0px 0px 0px 1px white;
+}
+
+.features {
+  background-image: url(assets/features.jpg);
+  background-position: left;
+}
+
+.features .col-md-6 {
+  text-align: left;
+  margin-top: 30vh;
+}
+
+.features h3 {
+  font-size: 24px;
+}
+
+.features h1 {
+  font-size: 56px;
+  text-transform: uppercase;
+}
+
+.features h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color:  #FFB548;
+  ;
+}
+
+.features p {
+  font-size: 16px;
+}
+
+.features .step {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.features .step .v-stepper {
+  position: relative;
+}
+
+.features .step .circle {
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 100%;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.features .step .content {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.features .step.completed .circle {
+  visibility: visible;
+  background-color: white;
+  border-color: white;
+}
+
+.features .step.active .circle {
+  visibility: visible;
+  border-color: white;
+  background-color: transparent;
+}
+
+.sysreq {
+  background-image: url(assets/requirements.png);
+  padding: 10vh 0px;
+}
+
+.sysreq h5 {
+  font-size: 12px;
+}
+
+.sysreq table {
+  border: 1px solid grey;
+}
+
+.sysreq h1 {
+  font-size: 56px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 5vh;
+}
+
+.sysreq h2 {
+  color: #FFB548;
+  font-size: 18px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.sysreq p {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+}
+
+.topscores {
+  background-image: url(assets/bg-image-5.png);
+}
+
+.topscores .topscoresleft {
+  margin-bottom: 2vh;
+}
+
+.topscores .topscoresleft h1 {
+  text-transform: uppercase;
+  font-size: 46px;
+  letter-spacing: 5px;
+}
+
+.topscores .topscoresleft h3 {
+  font-size: 18px;
+}
+
+.topscores .topscoresleft a {
+  margin-top: 5vh;
+  font-weight: bold;
+  padding: 10px 50px;
+}
+
+.topscores .twittercards .card {
+  border: none;
+}
+
+.topscores .twittercards .card-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: none;
+  text-align: left;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.topscores .twittercards .card-header .profilepic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 2px #ffc107;
+          box-shadow: 5px 2px #ffc107;
+}
+
+.topscores .twittercards .card-header h3 {
+  font-size: 12px;
+  color: #ffc107;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 50px;
+  margin-bottom: 0;
+  margin-top: 3px;
+}
+
+.topscores .twittercards .card-header h4 {
+  font-size: 10px;
+  color: grey;
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+
+.topscores .twittercards .card-header .twitterlogo {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.topscores .twittercards .card-body {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.topscores .twittercards h5 {
+  font-size: 12px;
+}
+
+.topscores .twittercards p {
+  font-size: 10px;
+  color: grey;
+}
+
+@media (min-width: 992px) {
+    .topscores .container {
+        position: relative;
+      }
+    
+      .topscores .topscoresleft {
+        position: absolute;
+        top: 150px;
+        width: 350px;
+        text-align: left;
+      }
+}
+
+.newsletter {
+  background-image: url(assets/newsletter-bg.jpg);
+  text-align: left;
+}
+
+.newsletter h3 {
+  font-size: 24px;
+  margin-top: 10vh;
+}
+
+.newsletter h1 {
+  font-size: 65px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.newsletter p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.newsletter form {
+  position: relative;
+}
+
+.newsletter form input[type="text"] {
+  border: 1px solid grey;
+  font-size: 20px;
+  color: #ffc107;
+}
+
+.newsletter form p {
+  color: grey;
+  position: absolute;
+  /* Relative to form */
+  font-size: 10px;
+  left: 16px;
+  top: 1px;
+}
+
+.newsletter form button {
+  padding: 9px;
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+  color: #ffc107 !important;
+}
+
+:-ms-input-placeholder {
+  color: #ffc107 !important;
+}
+
+::-ms-input-placeholder {
+  color: #ffc107 !important;
+}
+
+::placeholder {
+  color: #ffc107 !important;
+}
